@@ -111,10 +111,11 @@ functionlist = [additionint, substractionint, multiplicationint, divisionint, ad
 # change the number here if you want more or less practice until the program closes
 while score < 100:
 
-    a = randint(start, stop)
-    b = randint(start, stop)
     x = round(uniform(start, stop), 2)
     y = round(uniform(start, stop), 2)
+    a = int(x)
+    b = int(y)
+
     choice(functionlist)()
 
 print("Good job!")
