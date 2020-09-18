@@ -3,7 +3,10 @@ from random import uniform
 from random import choice
 
 # Trainer settings #
-print("""   Hi, this is a mental math trainer. It helps you practice your mental arithmatic skills. You can change the difficulity by changing the range of numbers the program uses to create questions. The trainer will help you practice on whole and on decimal numbers. The decimal question can be rounded to 2 decimals. For every correct answer you get 1 point. For every incorrect answer you loose 2 points. Once you reach a score of 100 points the program closes it's self.""")
+print(""" Hi, this is a mental math trainer. It helps you practice your mental arithmatic skills.
+          You can change the difficulity by changing the range of numbers the program uses to create questions.
+          The trainer will help you practice on whole and on decimal numbers. The decimal question can be rounded to 2 decimals.
+          For every correct answer you get 1 point. For every incorrect answer you loose 2 points. Once you reach a score of 100 points the program closes it's self.""")
 score = 0
 print("Range of numbers for calculations should start at: ")
 start = int(input())
